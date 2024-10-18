@@ -11,6 +11,7 @@
         .ЗависитОт("oint")
         .ЗависитОт("1connector")
         .ЗависитОт("autumn-annotation-types")
+        .ЗависитОт("autumn-logos")
          
         .ИсполняемыйФайл("main.os", "grafana2telegramm-bot")
         ;
