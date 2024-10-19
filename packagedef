@@ -7,7 +7,7 @@
         .ВключитьФайл("src")
         .ВключитьФайл("main.os")
         .ВключитьФайл("packagedef")
-        .ЗависитОт("autumn-cli")
+        .ЗависитОт("autumn")
         .ЗависитОт("oint")
         .ЗависитОт("1connector")
         .ЗависитОт("autumn-annotation-types")

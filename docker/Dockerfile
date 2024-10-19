@@ -59,7 +59,7 @@ RUN opm install opm && opm install -l
 
 
 COPY ./ ./
-COPY ./autumn-properties_my.json ./autumn-properties.json
+# COPY ./autumn-properties_my.json ./autumn-properties.json
 
 COPY ./docker/entrypoint.sh /
 RUN chmod 755 /entrypoint.sh \
