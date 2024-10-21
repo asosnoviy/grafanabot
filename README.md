@@ -19,10 +19,11 @@
 ### Docker
 
 ```bash
+opm.bat build && cp grafana2telegramm-bot-*.ospx bot.ospx
 docker build -t grafanabot -f docker/Dockerfile .
 
 docker run \ 
-    -e GRAFANABOT_TELEGRAMM_TOKEN="<12365:jahsJHFhvdgjaJGHF>" \
+    -e GRAFANABOT_TELEGRAMM_TOKEN="12365:jahsJHFhvdgjaJGHF" \
     -e GRAFANABOT_TELEGRAMM_USERS="66660503,3883884329" \
     -e GRAFANABOT_TELEGRAMM_GROUPS="-3455345434,-6786786868" \
     -e GRAFANABOT_GRAFANA_URL="http://grafana.local:3000" \
@@ -46,13 +47,11 @@ Telegramm bot for sending grafana dashboards from playlistst.
 
 ```bash
 
-docker build -t grafanabot -f docker/Dockerfile .
-
 docker run \ 
-    -e GRAFANABOT_TELEGRAMM_TOKEN="<12365:jahsJHFhvdgjaJGHF>" \
+    -e GRAFANABOT_TELEGRAMM_TOKEN="12365:jahsJHFhvdgjaJGHF" \
     -e GRAFANABOT_TELEGRAMM_USERS="66660503,3883884329" \
     -e GRAFANABOT_TELEGRAMM_GROUPS="-3455345434,-6786786868" \
     -e GRAFANABOT_GRAFANA_URL="http://grafana.local:3000" \
-    grafanabot
+    asosnoviy/grafanabot:latest
 
 ```
