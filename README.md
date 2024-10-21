@@ -26,7 +26,7 @@ docker run \
     -e GRAFANABOT_TELEGRAMM_USERS="66660503,3883884329" \
     -e GRAFANABOT_TELEGRAMM_GROUPS="-3455345434,-6786786868" \
     -e GRAFANABOT_GRAFANA_URL="http://grafana.local:3000" \
-    -e GRAFANABOT_GRAFANA_TOKEN=eyJrILCJuIjoiZ3JhZmFuYWJvdCIsImlkIjoxfQ== \
+    -e GRAFANABOT_GRAFANA_TOKEN="eyJrILCJuIjoiZ3JhZmFuYWJvdCIsImlkIjoxfQ==" \
     grafanabot
 ```
 
@@ -52,7 +52,7 @@ docker run \
     -e GRAFANABOT_TELEGRAMM_USERS="66660503,3883884329" \
     -e GRAFANABOT_TELEGRAMM_GROUPS="-3455345434,-6786786868" \
     -e GRAFANABOT_GRAFANA_URL="http://grafana.local:3000" \
-    -e GRAFANABOT_GRAFANA_TOKEN=eyJrILCJuIjoiZ3JhZmFuYWJvdCIsImlkIjoxfQ== \
+    -e GRAFANABOT_GRAFANA_TOKEN="eyJrILCJuIjoiZ3JhZmFuYWJvdCIsImlkIjoxfQ==" \
     asosnoviy/grafanabot:latest 
 
 ```
