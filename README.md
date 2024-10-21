@@ -19,7 +19,6 @@
 ### Docker
 
 ```bash
-opm.bat build && cp grafana2telegramm-bot-*.ospx bot.ospx
 docker build -t grafanabot -f docker/Dockerfile .
 
 docker run \ 
